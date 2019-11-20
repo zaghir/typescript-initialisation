@@ -3,17 +3,28 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "port": 9000,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server"
+    "start": "lite-server",
+    "build": "gulp"
   },
+  "keywords": [
+    "typescript",
+    "course"
+  ],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "lite-server": "^2.3.0",
-    "systemjs": "^0.21.3"
-  },
+  "dependencies": {},
   "commentaiteAppYZR": {
     "executionDeLite-server": "on demarre le service de lite-server , pour executer le server : npm start"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "lite-server": "^2.5.4",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.2",
+    "webpack": "^4.41.2"
   }
 }

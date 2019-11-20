@@ -1,0 +1,17 @@
+.look__file__js{
+    display: inline-block;
+}
+.look__file__js div {
+    display:block;
+    border: 2px solid #b5a7e2;
+    padding: 1.5rem;
+    border-radius: 5px;
+    background-color: #e8ffea;
+    margin: 1rem;
+}
+.look__file__js div a{
+    font-family: arial sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    color: #5f3b5e;
+}

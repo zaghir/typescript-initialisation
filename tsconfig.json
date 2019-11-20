@@ -2,18 +2,20 @@
   "compilerOptions": {
     "target": "es5",
     "module": "commonjs",
-    "noImplicitAny": false,
-    "sourceMap": true,
-    "strictNullChecks":true,
-    "noEmitOnError": true ,
-    "noUnusedParameters": true,
-    "sourceMap":true ,
-    /* Experimental Options */
+    "noImplicitAny": false,                /* Raise error on expressions and declarations with an implied 'any' type. */
+    "sourceMap": true,                     /* Generates corresponding '.map' file. */
+    "strictNullChecks":true,               /* Enable strict null checks. */
+    "noEmitOnError": true ,                /* should't have  .js file if we have an error by default Typescript creat .js file if we have or not a error after compilation  */
+    "noUnusedParameters": true,            /* Report errors on unused parameters. */    
     "experimentalDecorators": true,        /* Enables experimental support for ES7 decorators. */
-     "emitDecoratorMetadata": true         /* Enables experimental support for emitting type metadata for decorators. */
+    "emitDecoratorMetadata": true ,         /* Enables experimental support for emitting type metadata for decorators. */
+    "outDir": "./dist/"
   },
   "exclude": [
     "node_modules"
+  ],
+  "include": [
+    "./src/**/*.ts"
   ]
 }
 
